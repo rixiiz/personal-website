@@ -1,4 +1,4 @@
-// import Image from "next/image";
+import Image from "next/image";
 import Link from "next/link";
 import { Github, Linkedin, Twitter, ExternalLink, Mail, Briefcase, Code, MapPin, Calendar, Award } from 'lucide-react';
 
@@ -39,11 +39,20 @@ export default function Home() {
 				<main className="space-y-20 mt-10">
 
 					{/* Hero Section */}
-					<section id="home" className="text-center space-y-10">
+					<section id="home" className="flex flex-col items-center text-center space-y-10">
 						<h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold text-white tracking-tight">
 							{portfolioData.name}
 						</h1>
-						<p className="mt-4 text-2xl sm:text-3xl text-blue-400 font-medium">
+						<div className="w-50 h-50 rounded-full overflow-hidden border-3 border-blue-400 shadow-lg">
+						<Image
+							src="/me.jpg"
+							alt="Profile photo"
+							width={160}
+							height={160}
+							className="object-cover w-full h-full"
+						/>
+						</div>
+						<p className="mt-4 text-2xl sm:text-3xl text-blue-300 font-medium">
 							{portfolioData.headline}
 						</p>
 						<p className="mt-6 max-w-2xl mx-auto text-lg text-gray-300">
