@@ -33,10 +33,10 @@ const PORTFOLIO_DATA: Portfolio = {
 			liveLink: "",
 		},
 		{
-			title: "Accessible Gaming",
+			title: "Accessible Gaming - Flappy Bird",
 			description: "Used an AWS image recognition model to make gaming more accessible by allowing players to play with facial features (in this case their tongue). This mechanism can also be implemented in games with one physical action such as Geometry Dash.",
 			stack: ["Python", "opencv", "boto3"],
-			githubLink: "https://github.com/rixiiz/AWS-image-recognition-model-usage",
+			githubLink: "https://github.com/rixiiz/Accessible-Flappy-Bird",
 			liveLink: "",
 		},
 		{
@@ -118,4 +118,5 @@ const PORTFOLIO_DATA: Portfolio = {
 
 
 export default PORTFOLIO_DATA;
+
 
