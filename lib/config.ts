@@ -3,7 +3,7 @@ import type { Portfolio } from "@/lib/types";
 const PORTFOLIO_DATA: Portfolio = {
 	name: "Boyuan Li",
 	headline: "Aspiring Software Developer and ML Enthusiast",
-	bio: "Coming from France, I’m a Computer Science and Engineering major at UCLA passionate about developing solutions to solve real-world problems. I also have a strong interest in Machine Leaning and am actively reading and learning about the field. Currently seeking internship opportunities for the summer of 2026.",
+	bio: "Coming from France, I’m a Computer Science major at UCLA passionate about developing solutions to solve real-world problems. I also have a strong interest in Machine Leaning and am actively reading and learning about the field. Currently seeking internship opportunities for the summer of 2026.",
 
 	// Your contact email
 	email: "boyuanl6@g.ucla.edu",
@@ -20,11 +20,18 @@ const PORTFOLIO_DATA: Portfolio = {
 	// Add your skills here
 	skills: [
 		"Python", "Java", "C++", "NumPy", "Pandas",
-		"Matplotlib", "Scikit-Learn", "Object-Oriented-Programming", "Data Structures and Algorithms", "Graphical-User-Interface", "HTML", "CSS"
+		"Matplotlib", "Scikit-Learn", "TypeScript", "React", "Next.js", "PNPM", "Git", "Object-Oriented-Programming", "Data Structures and Algorithms"
 	],
 
 	// Add your projects here
 	projects: [
+		{
+			title: "Labradoor",
+			description: "Co-developing a platform for UCLA research professors to post lab positions and for students to apply directly. Building the frontend with TypeScript, React, and Next.js, implementing efficient UI and intuitive user navigation. Engineering backend, implementing APIs, and managing databases with Prisma using TypeScript, PNPM, and Git.",
+			stack: ["TypeScript", "React", "Next.js", "Git", "Docker", "Prisma", "PNPM"],
+			githubLink: "",
+			liveLink: "app.labadoor.org",
+		},
 		{
 			title: "Drum Learner",
 			description: "A drum machine learning model that aims to auto-generate 100+ unique rhythms and convert songs into drum patterns, visualized in a GUI that displays the beats as 4-bar rhythmic partitions.",
@@ -58,18 +65,18 @@ const PORTFOLIO_DATA: Portfolio = {
 	// Add your experience here
 	experience: [
 		{
-			role: "UI/UX Designer and Developer",
+			role: "Frontend Developer",
 			company: "UCLA DevX, Project BruinChat",
 			date: "October 2025 - Present",
 			location: "Los Angeles, California",
-			description: "Working with a 14-member team to design and build an app that automatically creates course-based group chats. Designing the app with wireframes and prototypes, building front-end interfaces, and contributing to backend code, logic, and project structure."
+			description: "Working with a 14-member team to design and build an app that automatically creates course-based group chats. Building the front-end interface with React, TailWindCSS, and Git while developing backend Node.js framework. Collaborating in wireframing and prototyping with Figma, and user-flow diagrams, UML diagrams, and timelines."
 		},
 		{
-			role: "Technical Marketing Intern",
+			role: "Software Engineer Intern (Marketing Tech)",
 			company: "PayPal",
 			date: "June 2023 - July 2023",
 			location: "Paris, France",
-			description: "Developed an algorithm of over 100 lines of code with Python to help marketing teams to efficiently organize products and services in their database systems. Documented 16 meetings, researched likely collaborators, and drafted 5 professional emails to propose partnerships."
+			description: "Developed a tested algorithm of over 100 lines of code with Python to help marketing teams manage their database. Documented 16 meetings, researched likely collaborators, and drafted 5 professional emails to propose partnerships."
 		},
 		{
 			role: "Competitive Programmer",
@@ -90,7 +97,7 @@ const PORTFOLIO_DATA: Portfolio = {
 	// Add any education or awards
 	education: [
 		{
-			degree: "B.S. in Computer Science and Engineering",
+			degree: "B.S. in Computer Science",
 			institution: "University of California, Los Angeles",
 			date: "Expected June 2029",
 			note: "Member of Association of Computing Machinary AI (parcitipating in Kaggle competitions), DevX, Bruin Software Engineers, and Bruin Machine Learning Analytics"
@@ -118,5 +125,6 @@ const PORTFOLIO_DATA: Portfolio = {
 
 
 export default PORTFOLIO_DATA;
+
 
 
