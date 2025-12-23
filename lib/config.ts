@@ -72,6 +72,13 @@ const PORTFOLIO_DATA: Portfolio = {
 			description: "Working with a 14-member team to design and build an app that automatically creates course-based group chats. Building the front-end interface with React, TailWindCSS, and Git while developing backend Node.js framework. Collaborating in wireframing and prototyping with Figma, and user-flow diagrams, UML diagrams, and timelines."
 		},
 		{
+			role: "Software Engineer",
+			company: "R and D Venture Cohort 1, Inc.",
+			date: "November 2025 - Present",
+			location: "New York, NY (Remote)",
+			description: "Building a PCA-based website for home repair cost estimation in a team using Python, HTML, CSS, Git, and JavaScript, informed by the venture studio, who led market research and got clients on board. Collecting and using data from existing PCAs and training an AI model to analyze photos of repair items for an improved automated cost estimation."
+		},
+		{
 			role: "Software Engineer Intern (Marketing Tech)",
 			company: "PayPal",
 			date: "June 2023 - July 2023",
@@ -125,6 +132,7 @@ const PORTFOLIO_DATA: Portfolio = {
 
 
 export default PORTFOLIO_DATA;
+
 
 
 
