@@ -3,7 +3,7 @@ import type { Portfolio } from "@/lib/types";
 const PORTFOLIO_DATA: Portfolio = {
 	name: "Boyuan Li",
 	headline: "Aspiring Software Developer and ML Enthusiast",
-	bio: "Coming from France, I’m a Computer Science major at UCLA passionate about developing solutions to solve real-world problems. I also have a strong interest in Machine Leaning and am actively reading and learning about the field. Currently seeking internship opportunities for the summer of 2026.",
+	bio: "Coming from France and based in Los Angeles, I’m a Computer Science major at UCLA passionate about developing solutions to solve real-world problems. I also have a strong interest in Machine Leaning and am actively reading and learning about the field. Currently seeking internship opportunities for the summer of 2026.",
 
 	// Your contact email
 	email: "boyuanl6@g.ucla.edu",
@@ -132,6 +132,7 @@ const PORTFOLIO_DATA: Portfolio = {
 
 
 export default PORTFOLIO_DATA;
+
 
 
 
