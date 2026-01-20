@@ -19,16 +19,23 @@ const PORTFOLIO_DATA: Portfolio = {
 
 	// Add your skills here
 	skills: [
-		"Python", "Java", "C++", "NumPy", "Pandas",
-		"Matplotlib", "Scikit-Learn", "TypeScript", "React", "Next.js", "PNPM", "Git", "Object-Oriented-Programming", "Data Structures and Algorithms"
+		"Python", "C++", "Java", "NumPy", "Pandas",
+		"Matplotlib", "Scikit-Learn", "TypeScript", "React", "Next.js", "NPM", "FastAPI", "Git", "Object-Oriented-Programming", "Data Structures and Algorithms"
 	],
 
 	// Add your projects here
 	projects: [
 		{
+			title: "YC Predictor",
+			description: "Scraped and curated a labeled dataset of YC pitch videos, and extracted multimodal features (Whisper transcripts, sentence-transformer embeddings, and visual statistics in frames) to train a logistic regression acceptance predictor. Deployed model via a FastAPI inference service and a Next.js interface for new pitch videos with prediction history.",
+			stack: ["TypeScript", "Next.js", "NPM", "Python", "FastAPI", "Scikit-Learn", "Whisper"],
+			githubLink: "https://github.com/rixiiz/yc-predictor",
+			liveLink: "",
+		},
+		{
 			title: "Labradoor",
-			description: "Co-developing a platform for UCLA research professors to post lab positions and for students to apply directly. Building the frontend with TypeScript, React, and Next.js, implementing efficient UI and intuitive user navigation. Engineering backend, implementing APIs, and managing databases with Prisma using TypeScript, PNPM, and Git.",
-			stack: ["TypeScript", "React", "Next.js", "Git", "Docker", "Prisma", "PNPM"],
+			description: "Co-developing a platform for UCLA research professors to post lab positions and for students to apply directly. Building the frontend with TypeScript, React, and Next.js, implementing efficient UI and intuitive user navigation. Engineering backend, implementing APIs, and managing databases with Prisma using TypeScript, NPM, and Git.",
+			stack: ["TypeScript", "React", "Next.js", "Git", "Docker", "Prisma", "NPM"],
 			githubLink: "",
 			liveLink: "app.labadoor.org",
 		},
@@ -132,6 +139,7 @@ const PORTFOLIO_DATA: Portfolio = {
 
 
 export default PORTFOLIO_DATA;
+
 
 
 
