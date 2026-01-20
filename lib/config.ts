@@ -72,6 +72,13 @@ const PORTFOLIO_DATA: Portfolio = {
 	// Add your experience here
 	experience: [
 		{
+			role: "AI Software Engineer Intern",
+			company: "GuideAI",
+			date: "January 2026 - Present",
+			location: "Los Angeles, California",
+			description: "Standardizing AI prompt pipelines for GuideAI to understand client websites and guide users through navigation. Deploying frontend updates, including admin feature development, for getguide.ai with React, TypeScript, and Git."
+		},
+		{
 			role: "Frontend Developer",
 			company: "UCLA DevX, Project BruinChat",
 			date: "October 2025 - Present",
@@ -80,7 +87,7 @@ const PORTFOLIO_DATA: Portfolio = {
 		},
 		{
 			role: "Software Engineer",
-			company: "R and D Venture Cohort 1, Inc.",
+			company: "R&D Venture Cohort 1, Inc.",
 			date: "November 2025 - Present",
 			location: "New York, NY (Remote)",
 			description: "Building a PCA-based website for home repair cost estimation in a team using Python, HTML, CSS, Git, and JavaScript, informed by the venture studio, who led market research and got clients on board. Collecting and using data from existing PCAs and training an AI model to analyze photos of repair items for an improved automated cost estimation."
@@ -139,6 +146,7 @@ const PORTFOLIO_DATA: Portfolio = {
 
 
 export default PORTFOLIO_DATA;
+
 
 
 
