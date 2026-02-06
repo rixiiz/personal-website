@@ -26,6 +26,13 @@ const PORTFOLIO_DATA: Portfolio = {
 	// Add your projects here
 	projects: [
 		{
+			title: "Market Agents",
+			description: "Created a multi-agent LLM trading simulation with 3 distinct personas that take in live news every 15 minutes, communicate with each other, and produce a consensus forecast benchmarked against index and naïve models. Implemented ChromaDB and RAG pipeline to ground agent decisions over 100+ live news without hallucinations.",
+			stack: ["Python", "FastAPI", "GenAI", "LangChain", "NumPy", "Pandas", "ChromaDB"],
+			githubLink: "https://github.com/shojha24/BMLA-W25-Agentic-Stock-Sim",
+			liveLink: "",
+		}
+		{
 			title: "YC Predictor",
 			description: "Scraped and curated a labeled dataset of YC pitch videos, and extracted multimodal features (Whisper transcripts, sentence-transformer embeddings, and visual statistics in frames) to train a logistic regression acceptance predictor. Deployed model via a FastAPI inference service and a Next.js interface for new pitch videos with prediction history.",
 			stack: ["TypeScript", "Next.js", "NPM", "Python", "FastAPI", "Scikit-Learn", "Whisper"],
@@ -38,13 +45,6 @@ const PORTFOLIO_DATA: Portfolio = {
 			stack: ["TypeScript", "React", "Next.js", "Git", "Docker", "Prisma", "NPM"],
 			githubLink: "",
 			liveLink: "app.labadoor.org",
-		},
-		{
-			title: "Drum Learner",
-			description: "A drum machine learning model that aims to auto-generate 100+ unique rhythms and convert songs into drum patterns, visualized in a GUI that displays the beats as 4-bar rhythmic partitions.",
-			stack: ["Python", "Tkinter", "Magenta", "LilyPond"],
-			githubLink: "https://github.com/rixiiz/Drum-Learner",
-			liveLink: "",
 		},
 		{
 			title: "Accessible Gaming - Flappy Bird",
@@ -90,7 +90,7 @@ const PORTFOLIO_DATA: Portfolio = {
 			company: "R&D Venture Cohort 1, Inc.",
 			date: "November 2025 - Present",
 			location: "New York, NY (Remote)",
-			description: "Building a PCA-based website for home repair cost estimation in a team using Python, HTML, CSS, Git, and JavaScript, informed by the venture studio, who led market research and got clients on board. Collecting and using data from existing PCAs and training an AI model to analyze photos of repair items for an improved automated cost estimation."
+			description: "Built an offline-first inspection platform for home repair cost estimation using React Native, SQLite, Node.js, and PostgreSQL, enabling engineers to capture 100+ photos and 30+ voice observations per inspection with auto-sync. Implemented a voice-to-report pipeline using Whisper and semantic search to convert field dictations into reports."
 		},
 		{
 			role: "Software Engineer Intern (Marketing Tech)",
@@ -146,6 +146,7 @@ const PORTFOLIO_DATA: Portfolio = {
 
 
 export default PORTFOLIO_DATA;
+
 
 
 
