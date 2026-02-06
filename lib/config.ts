@@ -2,7 +2,7 @@ import type { Portfolio } from "@/lib/types";
 
 const PORTFOLIO_DATA: Portfolio = {
 	name: "Boyuan Li",
-	headline: "Aspiring Software Developer and ML Enthusiast",
+	headline: "Aspiring Software Engineer and ML Engineer",
 	bio: "Coming from France and based in Los Angeles, I’m a Computer Science major at UCLA who loves building full-stack and AI-powered systems, with experience deploying production web platforms and applied machine learning products. Currently seeking internship opportunities.",
 
 	// Your contact email
@@ -146,6 +146,7 @@ const PORTFOLIO_DATA: Portfolio = {
 
 
 export default PORTFOLIO_DATA;
+
 
 
 
