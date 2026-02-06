@@ -31,7 +31,7 @@ const PORTFOLIO_DATA: Portfolio = {
 			stack: ["Python", "FastAPI", "GenAI", "LangChain", "NumPy", "Pandas", "ChromaDB"],
 			githubLink: "https://github.com/shojha24/BMLA-W25-Agentic-Stock-Sim",
 			liveLink: "",
-		}
+		},
 		{
 			title: "YC Predictor",
 			description: "Scraped and curated a labeled dataset of YC pitch videos, and extracted multimodal features (Whisper transcripts, sentence-transformer embeddings, and visual statistics in frames) to train a logistic regression acceptance predictor. Deployed model via a FastAPI inference service and a Next.js interface for new pitch videos with prediction history.",
@@ -146,6 +146,7 @@ const PORTFOLIO_DATA: Portfolio = {
 
 
 export default PORTFOLIO_DATA;
+
 
 
 
