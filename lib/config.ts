@@ -72,43 +72,43 @@ const PORTFOLIO_DATA: Portfolio = {
 	// Add your experience here
 	experience: [
 		{
-			role: "AI Software Engineer Intern",
-			company: "GuideAI",
+			role: "GuideAI",
+			company: "AI Software Engineer Intern",
 			date: "January 2026 - Present",
 			location: "Los Angeles, California",
 			description: "Standardized AI prompt pipelines for the LLM to understand 6 client websites and guide users through navigation. Deployed 4 system updates on the website, including admin feature development, with React, TypeScript, and Git."
 		},
 		{
-			role: "Software Engineer",
-			company: "R&D Venture Cohort 1, Inc.",
+			role: "R&D Venture Cohort 1, Inc.",
+			company: "Software Engineer",
 			date: "November 2025 - Present",
-			location: "New York, NY (Remote)",
+			location: "New York City, NY (Remote)",
 			description: "Built an offline-first inspection platform for home repair cost estimation using React Native, SQLite, Node.js, and PostgreSQL, enabling engineers to capture 100+ photos and 30+ voice observations per inspection with auto-sync. Implemented a voice-to-report pipeline using Whisper and semantic search to convert field dictations into reports."
 		},
 		{
-			role: "Frontend Developer",
-			company: "UCLA DevX, Project BruinChat",
+			role: "UCLA DevX",
+			company: "Frontend Developer",
 			date: "October 2025 - Present",
 			location: "Los Angeles, California",
 			description: "Worked with a 14-member team to design and build an app that automatically creates course-based group chats. Engineered the frontend using React and Tailwind CSS while implementing a Node.js backend using NPM and Git."
 		},
 		{
-			role: "Software Engineer Intern (Marketing Tech)",
-			company: "PayPal",
+			role: "PayPal",
+			company: "Software Engineer Intern (Marketing Tech)",
 			date: "June 2023 - July 2023",
 			location: "Paris, France",
 			description: "Developed a tested algorithm of over 100 lines of code with Python to help marketing teams manage their database. Documented 16 meetings, researched likely collaborators, and drafted 5 professional emails to propose partnerships."
 		},
 		{
-			role: "Competitive Programmer",
-			company: "USA Computing Olympiad",
+			role: "USA Computing Olympiad Gold",
+			company: "Competitive Programmer",
 			date: "December 2022 - March 2023",
 			location: "Paris, France",
 			description: "Competed in 3 competitions and completed a total of 9 problems of increasing difficulty to reach Gold Division. Coded algorithms with the most optimized time complexity like Depth-First-Search, Breadth-First-Search, or Dynamic Programming in C++."
 		},
 		{
-			role: "Web Developer",
-			company: "Joker Solidaire",
+			role: "Joker Solidaire",
+			company: "Software Engineer",
 			date: "October 2022 - March 2023",
 			location: "Paris, France",
 			description: "Built and designed the website for Joker Solidaire: a startup making card decks accessible for people with disabilities. Generated €500+ in revenue."
@@ -146,6 +146,7 @@ const PORTFOLIO_DATA: Portfolio = {
 
 
 export default PORTFOLIO_DATA;
+
 
 
 
