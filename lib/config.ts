@@ -41,9 +41,9 @@ const PORTFOLIO_DATA: Portfolio = {
 		},
 		{
 			title: "Labradoor",
-			description: "",
+			description: "Architected and shipped a production-ready multi-service web platform enabling UCLA labs to publish openings, manage researcher workflows, centralize undergraduate applications, and collaborate with members through groups. Built TypeScript/Express API with Prisma-backed PostgreSQL schema supporting posts and student applications. Deployed Dockerized infrastructure with CI/CD, environment variable management, and database migration flows.",
 			stack: ["Node.js", "React", "Next.js", "Express", "TypeScript", "Prisma", "Docker", "PostgreSQL"],
-			githubLink: "Architected and shipped a production-ready multi-service web platform enabling UCLA labs to publish openings, manage researcher workflows, centralize undergraduate applications, and collaborate with members through groups. Built TypeScript/Express API with Prisma-backed PostgreSQL schema supporting posts and student applications. Deployed Dockerized infrastructure with CI/CD, environment variable management, and database migration flows.",
+			githubLink: "",
 			liveLink: "app.labadoor.org",
 		},
 		{
@@ -146,6 +146,7 @@ const PORTFOLIO_DATA: Portfolio = {
 
 
 export default PORTFOLIO_DATA;
+
 
 
 
