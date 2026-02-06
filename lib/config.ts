@@ -76,14 +76,7 @@ const PORTFOLIO_DATA: Portfolio = {
 			company: "GuideAI",
 			date: "January 2026 - Present",
 			location: "Los Angeles, California",
-			description: "Standardizing AI prompt pipelines for GuideAI to understand client websites and guide users through navigation. Deploying frontend updates, including admin feature development, for getguide.ai with React, TypeScript, and Git."
-		},
-		{
-			role: "Frontend Developer",
-			company: "UCLA DevX, Project BruinChat",
-			date: "October 2025 - Present",
-			location: "Los Angeles, California",
-			description: "Working with a 14-member team to design and build an app that automatically creates course-based group chats. Building the front-end interface with React, TailWindCSS, and Git while developing backend Node.js framework. Collaborating in wireframing and prototyping with Figma, and user-flow diagrams, UML diagrams, and timelines."
+			description: "Standardized AI prompt pipelines for the LLM to understand 6 client websites and guide users through navigation. Deployed 4 system updates on the website, including admin feature development, with React, TypeScript, and Git."
 		},
 		{
 			role: "Software Engineer",
@@ -91,6 +84,13 @@ const PORTFOLIO_DATA: Portfolio = {
 			date: "November 2025 - Present",
 			location: "New York, NY (Remote)",
 			description: "Built an offline-first inspection platform for home repair cost estimation using React Native, SQLite, Node.js, and PostgreSQL, enabling engineers to capture 100+ photos and 30+ voice observations per inspection with auto-sync. Implemented a voice-to-report pipeline using Whisper and semantic search to convert field dictations into reports."
+		},
+		{
+			role: "Frontend Developer",
+			company: "UCLA DevX, Project BruinChat",
+			date: "October 2025 - Present",
+			location: "Los Angeles, California",
+			description: "Worked with a 14-member team to design and build an app that automatically creates course-based group chats. Engineered the frontend using React and Tailwind CSS while implementing a Node.js backend using NPM and Git."
 		},
 		{
 			role: "Software Engineer Intern (Marketing Tech)",
@@ -111,7 +111,7 @@ const PORTFOLIO_DATA: Portfolio = {
 			company: "Joker Solidaire",
 			date: "October 2022 - March 2023",
 			location: "Paris, France",
-			description: "Built and designed the website for Joker Solidaire, a startup making card decks accessible for people with disabilities, and generated €500+ in revenue."
+			description: "Built and designed the website for Joker Solidaire: a startup making card decks accessible for people with disabilities. Generated €500+ in revenue."
 		}
 	],
 
@@ -120,8 +120,8 @@ const PORTFOLIO_DATA: Portfolio = {
 		{
 			degree: "B.S. in Computer Science",
 			institution: "University of California, Los Angeles",
-			date: "Expected June 2029",
-			note: "Member of Association of Computing Machinary AI (parcitipating in Kaggle competitions), DevX, Bruin Software Engineers, and Bruin Machine Learning Analytics"
+			date: "Expected June 2028",
+			note: "Member of Association of Computing Machinary AI (parcitipating in Kaggle competitions), DevX, Bruin Software Engineers, and Bruin Machine Learning & Analytics, Bruin Sports Analytics"
 		},
 		{
 			degree: "5th Place in the French Go Championship 2025",
@@ -146,6 +146,7 @@ const PORTFOLIO_DATA: Portfolio = {
 
 
 export default PORTFOLIO_DATA;
+
 
 
 
