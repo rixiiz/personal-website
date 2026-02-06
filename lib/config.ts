@@ -20,7 +20,7 @@ const PORTFOLIO_DATA: Portfolio = {
 	// Add your skills here
 	skills: [
 		"Python", "C++", "Java", "NumPy", "Pandas",
-		"Matplotlib", "Scikit-Learn", "TypeScript", "React", "Next.js", "NPM", "FastAPI", "Git", "Object-Oriented-Programming", "Data Structures and Algorithms"
+		"Matplotlib", "Scikit-Learn", "TypeScript", "React", "Next.js", "NPM", "Node.js", "Docker", "FastAPI", "Git", "Object-Oriented-Programming", "Data Structures and Algorithms"
 	],
 
 	// Add your projects here
@@ -146,6 +146,7 @@ const PORTFOLIO_DATA: Portfolio = {
 
 
 export default PORTFOLIO_DATA;
+
 
 
 
