@@ -19,8 +19,8 @@ const PORTFOLIO_DATA: Portfolio = {
 
 	// Add your skills here
 	skills: [
-		"Python", "C++", "Java", "NumPy", "Pandas",
-		"Matplotlib", "Scikit-Learn", "TypeScript", "React", "Next.js", "NPM", "Node.js", "Docker", "FastAPI", "Git", "Object-Oriented-Programming", "Data Structures and Algorithms"
+		"Python", "TypeScript", "C++", "SQL", "PostgreSQL", "Node.js", "React", "Next.js",
+		"Git", "Docker", "FastAPI", "scikit-learn", "NumPy", "pandas", "Object-Oriented-Programming", "Data Structures and Algorithms"
 	],
 
 	// Add your projects here
@@ -28,22 +28,22 @@ const PORTFOLIO_DATA: Portfolio = {
 		{
 			title: "Market Agents",
 			description: "Created a multi-agent LLM trading simulation with 3 distinct personas that take in live news every 15 minutes, communicate with each other, and produce a consensus forecast benchmarked against index and naïve models. Implemented ChromaDB and RAG pipeline to ground agent decisions over 100+ live news without hallucinations.",
-			stack: ["Python", "FastAPI", "GenAI", "LangChain", "NumPy", "Pandas", "ChromaDB"],
+			stack: ["Python", "FastAPI", "GenAI", "LangChain", "NumPy", "pandas", "ChromaDB"],
 			githubLink: "https://github.com/shojha24/BMLA-W25-Agentic-Stock-Sim",
 			liveLink: "",
 		},
 		{
 			title: "YC Predictor",
-			description: "Scraped and curated a labeled dataset of YC pitch videos, and extracted multimodal features (Whisper transcripts, sentence-transformer embeddings, and visual statistics in frames) to train a logistic regression acceptance predictor. Deployed model via a FastAPI inference service and a Next.js interface for new pitch videos with prediction history.",
-			stack: ["TypeScript", "Next.js", "NPM", "Python", "FastAPI", "Scikit-Learn", "Whisper"],
+			description: "Scraped and labeled a dataset of 100+ YC pitch videos and extracted features (Whisper transcripts, sentencetransformer embeddings, and initial 10 frames for visuals) to train a PyTorch neural network acceptance predictor. Model evaluates at a threshold of 0.5 with a 90.5% accuracy and 86.9% balanced accuracy and was deployed on a web platform using FastAPI, Node.js, and Next.js to predict pitches, store predictions, and show key contributions.",
+			stack: ["Node.js", "React", "Next.js", "TypeScript", "Python", "FastAPI", "scikit-learn", "Whisper"],
 			githubLink: "https://github.com/rixiiz/yc-predictor",
 			liveLink: "",
 		},
 		{
 			title: "Labradoor",
-			description: "Co-developing a platform for UCLA research professors to post lab positions and for students to apply directly. Building the frontend with TypeScript, React, and Next.js, implementing efficient UI and intuitive user navigation. Engineering backend, implementing APIs, and managing databases with Prisma using TypeScript, NPM, and Git.",
-			stack: ["TypeScript", "React", "Next.js", "Git", "Docker", "Prisma", "NPM"],
-			githubLink: "",
+			description: "",
+			stack: ["Node.js", "React", "Next.js", "Express", "TypeScript", "Prisma", "Docker", "PostgreSQL"],
+			githubLink: "Architected and shipped a production-ready multi-service web platform enabling UCLA labs to publish openings, manage researcher workflows, centralize undergraduate applications, and collaborate with members through groups. Built TypeScript/Express API with Prisma-backed PostgreSQL schema supporting posts and student applications. Deployed Dockerized infrastructure with CI/CD, environment variable management, and database migration flows.",
 			liveLink: "app.labadoor.org",
 		},
 		{
@@ -55,8 +55,8 @@ const PORTFOLIO_DATA: Portfolio = {
 		},
 		{
 			title: "OBP Predictor For MLB Players",
-			description: "An optimized KNN model capable of predicting the On Base Percentage (OBP) of Major League Baseball (MLB) players at the end of the season given their stats in the beginning of the same season.",
-			stack: ["Python", "NumPy", "Pandas", "Matplotlib", "Scikit-Learn"],
+			description: "Optimized a K-Nearest-Neighbor regression model to predict MLB players’ OBP using 100+ past batting statistics. The model, enhanced through the Elbow Method and Cross-Validation, achieved a Mean Square Error of ~0.002.",
+			stack: ["Python", "NumPy", "pandas", "Matplotlib", "scikit-learn"],
 			githubLink: "https://github.com/rixiiz/Using-KNN-to-predict-the-OBP-of-MLB-players",
 			liveLink: "",
 		},
@@ -76,7 +76,7 @@ const PORTFOLIO_DATA: Portfolio = {
 			company: "AI Software Engineer Intern",
 			date: "January 2026 - Present",
 			location: "Los Angeles, California",
-			description: "Standardized AI prompt pipelines for the LLM to understand 6 client websites and guide users through navigation. Deployed 4 system updates on the website, including admin feature development, with React, TypeScript, and Git."
+			description: "Standardized AI prompt pipelines for the LLM to understand 6 client websites and guide users through navigation. Shipped 4 production updates, including admin and product features, using React, TypeScript, and Next.js."
 		},
 		{
 			role: "R&D Venture Cohort 1, Inc.",
@@ -90,7 +90,7 @@ const PORTFOLIO_DATA: Portfolio = {
 			company: "Frontend Developer",
 			date: "October 2025 - Present",
 			location: "Los Angeles, California",
-			description: "Worked with a 14-member team to design and build an app that automatically creates course-based group chats. Engineered the frontend using React and Tailwind CSS while implementing a Node.js backend using NPM and Git."
+			description: "Worked with a 14-member team to design and build an app that automatically creates course-based group chats. Engineered a React/Tailwind CSS frontend while implementing a Node.js backend using Git for version control."
 		},
 		{
 			role: "PayPal",
@@ -146,6 +146,7 @@ const PORTFOLIO_DATA: Portfolio = {
 
 
 export default PORTFOLIO_DATA;
+
 
 
 
