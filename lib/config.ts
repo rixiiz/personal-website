@@ -44,7 +44,7 @@ const PORTFOLIO_DATA: Portfolio = {
 			description: "Architected and shipped a production-ready multi-service web platform enabling UCLA labs to publish openings, manage researcher workflows, centralize undergraduate applications, and collaborate with members through groups. Built TypeScript/Express API with Prisma-backed PostgreSQL schema supporting posts and student applications. Deployed Dockerized infrastructure with CI/CD, environment variable management, and database migration flows.",
 			stack: ["Node.js", "React", "Next.js", "Express", "TypeScript", "Prisma", "Docker", "PostgreSQL"],
 			githubLink: "",
-			liveLink: "https://app.labadoor.org",
+			liveLink: "https://app.labradoor.org",
 		},
 		{
 			title: "Accessible Gaming - Flappy Bird",
@@ -146,6 +146,7 @@ const PORTFOLIO_DATA: Portfolio = {
 
 
 export default PORTFOLIO_DATA;
+
 
 
 
